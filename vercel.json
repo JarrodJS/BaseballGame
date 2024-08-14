@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ]
+  ],
+  "env": {
+    "FLASK_ENV": "production",
+    "SECRET_KEY": "your-secret-key"
+  },
+  "pythonVersion": "3.9"
 }
